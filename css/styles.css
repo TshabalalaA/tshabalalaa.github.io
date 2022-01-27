@@ -1,0 +1,352 @@
+/*https://coolors.co/f47f38-e83f6f-2274a5-32936f-ffffff
+
+#D96690- pink
+#F28DB2- light pink
+#F2C9E0- light light pink
+#89C2D9- blue
+#88E8F2- light blue
+*/
+
+
+/* Gloabl Styles
+---------------------------------*/
+body{
+    color: #2b3838;
+    margin: 0;
+    padding: 0;
+    font-family: 'El Messiri', sans-serif;
+    font-size:15px;
+    line-height:1.5; 
+}
+
+h1,h2,h3{
+  font-family: 'Playfair Display', serif;
+}
+
+h3{
+  font-size: 25px;
+  border-bottom: 0.3px solid rgb(180, 170, 170) ;
+}
+
+h2{
+  font-size: 35px;
+  color: rgb(87, 84, 84);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+img{
+    width: 300px;
+    border-radius: 1rem;  
+}
+
+img:hover{
+  opacity: 0.8;
+}
+
+/* Introduction
+---------------------------------*/
+header{
+    background-color:#D96690;
+    color:black;
+    padding:10px;
+    background-image: url("../image/backg.jpg"); 
+    background-size: cover;   
+}
+
+h1{
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+  color: rgb(87, 84, 84);
+}
+
+header nav ul{
+  margin:-12px;
+  background: rgba(210, 99, 144);
+  padding: 2rem; 
+ 
+}
+
+nav li{
+  list-style-type:none;
+  display: block;
+  margin:20px;
+  
+    
+}
+
+nav a{
+  text-decoration: none ;
+  color:rgb(87, 84, 84);
+  font-size:20px;
+  font-weight: bolder;
+}
+
+nav a:hover{
+  color:black;
+  text-decoration:none;
+}
+
+
+nav{ 
+  text-align:right;
+  
+}
+
+aside{
+  
+  font-style: italic;
+  border-radius: 50px 20px;
+  max-width: 600px;
+  margin-left: 70px;
+  font-weight: bold;
+  color: black;
+  padding-left: 15px;
+  border: 1px solid rgba(210, 99, 144);
+  background-color: rgba(210, 99, 144);
+  opacity: 0.7;
+}
+
+
+/* Services
+---------------------------------*/
+.service{
+    background-color:  #88E8F2;
+  
+}
+
+.content-wrap{
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.service a{
+    color: #2274A5;
+
+}
+
+.service .btn{
+    color:#FFFFFF;
+    background:#2274A5 ;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.service .btn:hover{
+    background-color: RGBA(153, 201, 190) ;
+}
+
+/* .floatleft{
+  float: left;
+}
+
+ */
+
+.part4.part0.part3.part2.part1{
+  
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.part4 p,a{
+  padding-top: 150px; 
+ 
+}
+
+.part4 img{
+  padding-right: 10px;
+}
+
+.part3 img{
+  padding-right: 10px;
+}
+
+.part2 img{
+  padding-right: 10px;
+}
+.part1 img{
+  padding-right: 10px;
+}
+
+.part0 img{
+  padding-right: 10px;
+}
+
+.part0 p,a{
+  
+  padding-top: 100px;
+}
+
+.part3 p,a{
+  margin-top: 100px; 
+}
+
+ .part2 p,a{
+  padding-top: 150px; 
+ }
+
+ .part1 p,a{
+  padding-top: 150px; 
+}
+
+ .part1  img{
+   width: 310px;
+   height: 400px;
+}
+
+ .part2  img{
+  width: 310px;
+  height: 400px;
+}
+
+.part3  img{
+  width: 310px;
+  height: 400px;
+}
+
+.part4  img{
+  width: 310px;
+  height: 400px;
+}
+
+
+.text {
+  position: absolute; 
+  bottom: 0; 
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 270px;
+  border-radius: 0px 0px 1rem 1rem;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding:  20px;
+  text-align: center;  
+  margin-bottom: 8px;
+}
+
+.container{
+  width: 300px;
+  float: left;
+  padding: 5px 20px 0 5px;
+  position: relative;
+}
+
+div:after {
+  content: "";
+  display: table;
+   clear: both; 
+}
+
+.container:hover .text{
+  opacity: 1;
+}
+
+.text1 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  border-radius: 0px 0px 1rem 1rem;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 8px;
+  text-align: center; 
+}
+
+.container:hover .text1 {
+  opacity: 1;
+}
+
+/* Equipment-Hire
+---------------------------------*/
+.equipment-hire{
+    background-color:#F2C9E0;
+    
+}
+.equipment-hire section{
+  border-top: 1px solid #527f91 ;
+  border-bottom: 1px solid #527f91 ;
+}
+
+dt{
+  font-weight: bold;
+  color: #527f91;
+  text-shadow: darkgrey;
+  font-size: 15px;
+  /* border-bottom: 1px solid #527f91; */
+  display: inline;
+ 
+  
+}
+
+dd{
+  font-weight: 570;
+  
+}
+
+
+/* Contact Info
+---------------------------------*/
+footer{
+    background-color:#89C2D9;
+    color:rgb(87, 84, 84);
+    text-align:center;
+}
+
+footer ul{
+  list-style-type:none;
+
+}
+
+footer li{
+  display:inline;
+  margin:5px; 
+}
+
+footer a{
+  text-decoration: none;
+  color: #D96690;
+  font-weight: bold;
+}
+
+footer a:hover{
+  color: #4d081f;
+}
+
+i{
+  border: 2px solid rgb(87, 84, 84);
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(219, 211, 211);
+}
+
+@media screen  and (min-width:460px){
+  nav li{
+    display: inline;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
