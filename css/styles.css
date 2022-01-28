@@ -314,6 +314,7 @@ footer ul{
 footer li{
   display:inline;
   margin:5px; 
+  border: 1px solid black;
 }
 
 footer a{
@@ -332,6 +333,11 @@ i{
   border-radius: 20px;
   background-color: rgb(219, 211, 211);
 }
+
+i:hover{
+  background-color: #D96690;
+}
+
 
 @media screen  and (min-width:460px){
   nav li{
